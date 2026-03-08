@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Minimal Injector",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://karakeep.docker.localhost/dashboard/bookmarks"],
+      "js": ["content.js"]
+    }
+  ]
+}
